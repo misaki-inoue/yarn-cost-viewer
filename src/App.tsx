@@ -1,13 +1,16 @@
-function StartButton() {
-  return <button>Start searching</button>;
-}
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./pages/home";
+import Search from "./pages/search";
+import Result from "./pages/result";
 
 export default function App() {
   return (
-    <div>
-      <h1>Yarn Cost Viewer</h1>
-      <h3>Find the best deal for yarns on Rakuten!</h3>
-      <StartButton />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/search" element={<Search />} />
+        <Route path="/result" element={<Result />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
