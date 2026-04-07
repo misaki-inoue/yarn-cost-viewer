@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
 
 function StartButton() {
-  return (
-    <button>
-      <Link to="/search">Start searching</Link>
-    </button>
-  );
+  return <Link to="/search">Start searching</Link>;
 }
 
 export default function Home() {
