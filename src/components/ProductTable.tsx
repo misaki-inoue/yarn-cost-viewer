@@ -5,6 +5,9 @@ type ItemHeaderRowProps = {
 };
 
 function ItemHeaderRow({ itemName }: ItemHeaderRowProps) {
-  return(
-  )
+  return (
+    <tr>
+      <th>{itemName}</th>
+    </tr>
+  );
 }
