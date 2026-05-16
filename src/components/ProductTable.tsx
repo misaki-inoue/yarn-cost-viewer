@@ -1,7 +1,7 @@
 import type { RakutenApiResponse, ItemDetails } from "../types";
 
 type ItemHeaderRowProps = {
-  itemName: ItemDetails["itemName"];
+  name: ItemDetails["itemName"];
 };
 
 type ItemDetailsRowProps = {
@@ -9,10 +9,10 @@ type ItemDetailsRowProps = {
   details: ItemDetails["itemCaption"];
 };
 
-function ItemHeaderRow({ itemName }: ItemHeaderRowProps) {
+function ItemHeaderRow({ name }: ItemHeaderRowProps) {
   return (
     <tr>
-      <th>{itemName}</th>
+      <th>{name}</th>
     </tr>
   );
 }
