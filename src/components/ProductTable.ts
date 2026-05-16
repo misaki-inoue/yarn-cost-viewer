@@ -1,4 +1,10 @@
 import type { RakutenApiResponse, ItemDetails } from "../types";
-import api_res_simple.json from 
 
-const ITEMS 
+type ItemHeaderRowProps = {
+  itemName: ItemDetails["itemName"];
+};
+
+function ItemHeaderRow({ itemName }: ItemHeaderRowProps) {
+  return(
+  )
+}
