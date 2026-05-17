@@ -9,12 +9,8 @@ type ItemDetailsRowProps = {
   details: ItemDetails["itemCaption"];
 };
 
-type ImageListProps = {
-  images: ItemDetails["mediumImageUrls"];
-};
-
 type ItemImagesRowProps = {
-  itemImages: RakutenImage[];
+  images: ItemDetails["mediumImageUrls"];
 };
 
 function ItemHeaderRow({ name }: ItemHeaderRowProps) {
@@ -38,21 +34,13 @@ function ItemImage({ imageUrl }: RakutenImage) {
   return <img src={imageUrl} alt="" width={128} />;
 }
 
-function ImageList({ images }: ImageListProps) {
-  return (
-    <>
-      {images.map(({ imageUrl }) => (
-        <ItemImage key={imageUrl} imageUrl={imageUrl} />
-      ))}
-    </>
-  );
-}
-
-function ItemImagesRow({ itemImages }: ItemImagesRowProps) {
+function ItemImagesRow({ images }: ItemImagesRowProps) {
   return (
     <tr>
       <td>
-        <ImageList images={itemImages} />
+        {images.map(({ imageUrl }) => (
+          <ItemImage key={imageUrl} imageUrl={imageUrl} />
+        ))}
       </td>
     </tr>
   );
