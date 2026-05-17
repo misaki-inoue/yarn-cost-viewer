@@ -17,6 +17,10 @@ type ItemImagesRowProps = {
   images: ItemDetails["mediumImageUrls"];
 };
 
+type ItemCardProps = {
+  item: ItemDetails;
+};
+
 function ItemHeaderRow({ name }: ItemHeaderRowProps) {
   return (
     <tr>
@@ -47,5 +51,15 @@ function ItemImagesRow({ images }: ItemImagesRowProps) {
         ))}
       </td>
     </tr>
+  );
+}
+
+function ItemCard({ item }: ItemCardProps) {
+  return (
+    <article>
+      <ItemHeaderRow name={item.itemName} />
+      <ItemImagesRow images={item.mediumImageUrls} />
+      <ItemDetailRow price={item.itemPrice} details={item.itemCaption} />
+    </article>
   );
 }
