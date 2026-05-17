@@ -1,4 +1,4 @@
-import type { RakutenApiResponse, ItemDetails, RakutenImage } from "../types";
+import type { RakutenApiResponse, ItemDetails } from "../types";
 
 type ItemHeaderRowProps = {
   name: ItemDetails["itemName"];
@@ -7,6 +7,10 @@ type ItemHeaderRowProps = {
 type ItemDetailsRowProps = {
   price: ItemDetails["itemPrice"];
   details: ItemDetails["itemCaption"];
+};
+
+type ItemImageProps = {
+  imageUrl: string;
 };
 
 type ItemImagesRowProps = {
@@ -30,7 +34,7 @@ function ItemDetailRow({ price, details }: ItemDetailsRowProps) {
   );
 }
 
-function ItemImage({ imageUrl }: RakutenImage) {
+function ItemImage({ imageUrl }: ItemImageProps) {
   return <img src={imageUrl} alt="" width={128} />;
 }
 
