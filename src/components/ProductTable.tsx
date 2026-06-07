@@ -1,10 +1,10 @@
 import type { RakutenApiResponse, ItemDetails } from "../types";
 
-type ItemHeaderRowProps = {
+type ItemHeaderProps = {
   name: ItemDetails["itemName"];
 };
 
-type ItemDetailsRowProps = {
+type ItemDetailsProps = {
   price: ItemDetails["itemPrice"];
   details: ItemDetails["itemCaption"];
 };
@@ -13,7 +13,7 @@ type ItemImageProps = {
   imageUrl: string;
 };
 
-type ItemImagesRowProps = {
+type ItemImagesProps = {
   images: ItemDetails["mediumImageUrls"];
 };
 
@@ -25,20 +25,16 @@ type ProductTableProps = {
   items: RakutenApiResponse;
 };
 
-function ItemHeaderRow({ name }: ItemHeaderRowProps) {
-  return (
-    <tr>
-      <th>{name}</th>
-    </tr>
-  );
+function ItemHeader({ name }: ItemHeaderProps) {
+  return <h2>{name}</h2>;
 }
 
-function ItemDetailRow({ price, details }: ItemDetailsRowProps) {
+function ItemDetails({ price, details }: ItemDetailsProps) {
   return (
-    <tr>
-      <td>{price}</td>
-      <td>{details}</td>
-    </tr>
+    <section>
+      <strong>{price}</strong>
+      <p>{details}</p>
+    </section>
   );
 }
 
@@ -46,24 +42,22 @@ function ItemImage({ imageUrl }: ItemImageProps) {
   return <img src={imageUrl} alt="" width={128} />;
 }
 
-function ItemImagesRow({ images }: ItemImagesRowProps) {
+function ItemImages({ images }: ItemImagesProps) {
   return (
-    <tr>
-      <td>
-        {images.map(({ imageUrl }) => (
-          <ItemImage key={imageUrl} imageUrl={imageUrl} />
-        ))}
-      </td>
-    </tr>
+    <>
+      {images.map(({ imageUrl }) => (
+        <ItemImage key={imageUrl} imageUrl={imageUrl} />
+      ))}
+    </>
   );
 }
 
 function ItemCard({ item }: ItemCardProps) {
   return (
     <article>
-      <ItemHeaderRow name={item.itemName} />
-      <ItemImagesRow images={item.mediumImageUrls} />
-      <ItemDetailRow price={item.itemPrice} details={item.itemCaption} />
+      <ItemHeader name={item.itemName} />
+      <ItemImages images={item.mediumImageUrls} />
+      <ItemDetails price={item.itemPrice} details={item.itemCaption} />
     </article>
   );
 }
