@@ -21,6 +21,10 @@ type ItemCardProps = {
   item: ItemDetails;
 };
 
+type ProductTableProps = {
+  items: RakutenApiResponse;
+};
+
 function ItemHeaderRow({ name }: ItemHeaderRowProps) {
   return (
     <tr>
@@ -61,5 +65,15 @@ function ItemCard({ item }: ItemCardProps) {
       <ItemImagesRow images={item.mediumImageUrls} />
       <ItemDetailRow price={item.itemPrice} details={item.itemCaption} />
     </article>
+  );
+}
+
+function ProductTable({ items }: ProductTableProps) {
+  return (
+    <section>
+      {items.map((item) => (
+        <ItemCard key={item.item} item={item} />
+      ))}
+    </section>
   );
 }
