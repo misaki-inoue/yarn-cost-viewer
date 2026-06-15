@@ -1,4 +1,4 @@
-import type { RakutenApiResponse, ItemDetails } from "../types";
+import type { ItemDetails } from "../types";
 
 type ItemHeaderProps = {
   name: ItemDetails["itemName"];
@@ -19,10 +19,6 @@ type ItemImagesProps = {
 
 type ItemCardProps = {
   item: ItemDetails;
-};
-
-type ProductTableProps = {
-  items: RakutenApiResponse;
 };
 
 function ItemHeader({ name }: ItemHeaderProps) {
@@ -52,22 +48,12 @@ function ItemImages({ images }: ItemImagesProps) {
   );
 }
 
-function ItemCard({ item }: ItemCardProps) {
+export default function ItemCard({ item }: ItemCardProps) {
   return (
     <article>
       <ItemHeader name={item.itemName} />
       <ItemImages images={item.mediumImageUrls} />
       <ItemDetails price={item.itemPrice} details={item.itemCaption} />
     </article>
-  );
-}
-
-function ProductTable({ items }: ProductTableProps) {
-  return (
-    <section>
-      {items.map((item) => (
-        <ItemCard key={item.item} item={item} />
-      ))}
-    </section>
   );
 }
