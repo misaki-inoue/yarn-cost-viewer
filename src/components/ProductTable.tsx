@@ -28,7 +28,7 @@ function ItemHeader({ name }: ItemHeaderProps) {
 function ItemDetails({ price, details }: ItemDetailsProps) {
   return (
     <section>
-      <strong>{price}</strong>
+      <strong>¥{price}/skein</strong>
       <p>{details}</p>
     </section>
   );
