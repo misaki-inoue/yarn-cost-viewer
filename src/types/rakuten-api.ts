@@ -4,7 +4,6 @@ export interface RakutenImage {
 
 export interface ItemDetails {
   itemName: string;
-  catchCopy: string;
   itemCode: string;
   itemPrice: number;
   itemCaption: string;
