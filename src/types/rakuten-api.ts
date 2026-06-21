@@ -72,3 +72,8 @@ export interface ProductCardData {
   shopName: string;
   shopUrl: string;
 }
+
+export interface ProductCardList {
+  count: number;
+  items: ProductCardData[];
+}

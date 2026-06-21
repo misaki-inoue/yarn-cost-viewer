@@ -1,12 +1,12 @@
-import type { ItemDetails } from "../types";
+import type { ItemDetails, ProductCardData } from "../types";
 
 type ItemHeaderProps = {
-  name: ItemDetails["itemName"];
+  name: ProductCardData["itemName"];
 };
 
 type ItemDetailsProps = {
-  price: ItemDetails["itemPrice"];
-  details: ItemDetails["itemCaption"];
+  price: ProductCardData["itemPrice"];
+  details: ProductCardData["itemCaption"];
 };
 
 type ItemImageProps = {
@@ -14,11 +14,11 @@ type ItemImageProps = {
 };
 
 type ItemImagesProps = {
-  images: ItemDetails["mediumImageUrls"];
+  images: ProductCardData["mediumImageUrls"];
 };
 
 type ItemCardProps = {
-  item: ItemDetails;
+  item: ProductCardData;
 };
 
 function ItemHeader({ name }: ItemHeaderProps) {
