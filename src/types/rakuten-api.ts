@@ -2,7 +2,7 @@ export interface RakutenImage {
   imageUrl: string;
 }
 
-export interface ItemDetails {
+export interface RakutenItemDetails {
   itemName: string;
   catchcopy: string;
   itemCode: string;
@@ -48,7 +48,7 @@ export interface ItemDetails {
 }
 
 export interface RakutenItemContainer {
-  Item: ItemDetails;
+  Item: RakutenItemDetails;
 }
 
 export interface RakutenApiResponse {

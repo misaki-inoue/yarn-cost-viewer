@@ -1,31 +1,31 @@
-import type { ItemDetails, ProductCardData } from "../types";
+import type { ProductCardData } from "../types";
 
-type ItemHeaderProps = {
+type ProductHeaderProps = {
   name: ProductCardData["itemName"];
 };
 
-type ItemDetailsProps = {
+type ProductDetailsProps = {
   price: ProductCardData["itemPrice"];
   details: ProductCardData["itemCaption"];
 };
 
-type ItemImageProps = {
+type ProductImageProps = {
   imageUrl: string;
 };
 
-type ItemImagesProps = {
+type ProductImagesProps = {
   images: ProductCardData["mediumImageUrls"];
 };
 
-type ItemCardProps = {
-  item: ProductCardData;
+type ProductCardProps = {
+  product: ProductCardData;
 };
 
-function ItemHeader({ name }: ItemHeaderProps) {
+function ProductHeader({ name }: ProductHeaderProps) {
   return <h2>{name}</h2>;
 }
 
-function ItemDetails({ price, details }: ItemDetailsProps) {
+function ProductDetails({ price, details }: ProductDetailsProps) {
   return (
     <section>
       <strong>¥{price}/skein</strong>
@@ -34,26 +34,26 @@ function ItemDetails({ price, details }: ItemDetailsProps) {
   );
 }
 
-function ItemImage({ imageUrl }: ItemImageProps) {
+function ProductImage({ imageUrl }: ProductImageProps) {
   return <img src={imageUrl} alt="" width={128} />;
 }
 
-function ItemImages({ images }: ItemImagesProps) {
+function ProductImages({ images }: ProductImagesProps) {
   return (
     <>
       {images.map(({ imageUrl }) => (
-        <ItemImage key={imageUrl} imageUrl={imageUrl} />
+        <ProductImage key={imageUrl} imageUrl={imageUrl} />
       ))}
     </>
   );
 }
 
-export default function ItemCard({ item }: ItemCardProps) {
+export default function ProductCard({ product: item }: ProductCardProps) {
   return (
     <article>
-      <ItemHeader name={item.itemName} />
-      <ItemImages images={item.mediumImageUrls} />
-      <ItemDetails price={item.itemPrice} details={item.itemCaption} />
+      <ProductHeader name={item.itemName} />
+      <ProductImages images={item.mediumImageUrls} />
+      <ProductDetails price={item.itemPrice} details={item.itemCaption} />
     </article>
   );
 }
