@@ -44,7 +44,7 @@ export interface ItemDetails {
   shopName: string;
   shopCode: string;
   genreId: number;
-  attributeIds: [number];
+  attributeIds: number[];
 }
 
 export interface RakutenItemContainer {
@@ -71,9 +71,4 @@ export interface ProductCardData {
   mediumImageUrls: RakutenImage[];
   shopName: string;
   shopUrl: string;
-}
-
-export interface ProductCardList {
-  count: number;
-  items: ProductCardData[];
 }

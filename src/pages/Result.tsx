@@ -1,12 +1,13 @@
 import ItemCard from "../components/ProductTable";
-import mock from "../../mock/api_res_simple.json";
+import mock from "../../mock/rakuten_api_res.json";
+import { mapProduct } from "../mappers/productMapper";
 
 export default function Result() {
-  const items = mock.Items.map((it) => it.Item);
+  const products = mapProduct(mock);
   return (
     <section>
-      {items.map((item) => (
-        <ItemCard key={item.itemCode} item={item} />
+      {products.map((product) => (
+        <ItemCard key={product.itemCode} item={product} />
       ))}
     </section>
   );
