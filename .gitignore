@@ -269,5 +269,3 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-
-/mock

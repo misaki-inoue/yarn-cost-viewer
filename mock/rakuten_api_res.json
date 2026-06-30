@@ -1,0 +1,235 @@
+{
+  "count": 3,
+  "page": 1,
+  "first": 1,
+  "last": 3,
+  "hits": 3,
+  "carrier": 0,
+  "pageCount": 1,
+  "Items": [
+    {
+      "Item": {
+        "itemName": "スキー毛糸　スキーコットンシルク　並太【毛糸】",
+        "catchcopy": "スキー毛糸　春夏毛糸",
+        "itemCode": "amimonet-shop:10001154",
+        "itemPrice": 308,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 308,
+        "itemPriceMax2": 308,
+        "itemPriceMax3": 308,
+        "itemPriceMin1": 308,
+        "itemPriceMin2": 308,
+        "itemPriceMin3": 308,
+        "itemCaption": "■商品のご案内 形状 25g　86m 品質構成 綿90％ シルク10％ 使用針目安 棒針 4〜6号　カギ針 5/0〜6/0号 標準ゲージ メリヤス編 20〜24目29〜33段 ※個人差によってゲージは異なります。ゲージと合わない場合は針の号数を変えて編んでください。 ※商品ラベルに記載のロット(LOT)は毛糸の生産番号です。カラーNoが同じでも、ロットが違うと色に若干の濃淡が生じますが欠陥では御座いませんのでご了承頂きます様宜しくお願い致します。 （その為、購入の際は予め作品に十分な量をお買い求めいただくことをオススメ致します。） ※ご指定のロットがある場合は備考欄にご記入ください。 ※毛糸には製造工程の都合上1〜2ヵ所に結び目が生じる場合が御座います。 ※羊の原毛を使用している場合、原毛特有の匂いがすることがございます。羊毛が10％以上入っている製品は、稀に羊の白毛や黒毛、植物の破片等が混入している場合がございますが品質には問題ありません。 ※商品写真は出来る限り現物を再現するよう心掛けておりますが、ご利用のモニターの設定・個人の視覚等の違いにより差異が生じる場合が御座います。何卒、ご了承ください。※個人差によってゲージは異なります。ゲージと合わない場合は針の号数を変えて編んでください。 ※商品ラベルに記載のロット(LOT)は毛糸の生産番号です。カラーNoが同じでも、ロットが違うと色に若干の濃淡が生じますが欠陥では御座いませんのでご了承頂きます様宜しくお願い致します。 （その為、購入の際は予め作品に十分な量をお買い求めいただくことをオススメ致します。） ※ご指定のロットがある場合は備考欄にご記入ください。 ※毛糸には製造工程の都合上1〜2ヵ所に結び目が生じる場合が御座います。 ※羊の原毛を使用している場合、原毛特有の匂いがすることがございます。羊毛が10％以上入っている製品は、稀に羊の白毛や黒毛、植物の破片等が混入している場合がございますが品質には問題ありません。 ※商品写真は出来る限り現物を再現するよう心掛けておりますが、ご利用のモニターの設定・個人の視覚等の違いにより差異が生じる場合が御座います。何卒、ご了承ください。",
+        "itemUrl": "https://item.rakuten.co.jp/amimonet-shop/cosilk/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "shopUrl": "https://www.rakuten.co.jp/amimonet-shop/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/imgrc0079695760.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-color.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-18-0174-250.jpg?_ex=64x64"
+          }
+        ],
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/imgrc0079695760.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-color.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-18-0174-250.jpg?_ex=128x128"
+          }
+        ],
+        "affiliateUrl": "",
+        "shopAffiliateUrl": "",
+        "imageFlag": 1,
+        "availability": 1,
+        "taxFlag": 0,
+        "postageFlag": 1,
+        "creditCardFlag": 1,
+        "shopOfTheYearFlag": 0,
+        "shipOverseasFlag": 0,
+        "shipOverseasArea": "",
+        "asurakuFlag": 0,
+        "asurakuClosingTime": "",
+        "asurakuArea": "",
+        "affiliateRate": 3,
+        "startTime": "",
+        "endTime": "",
+        "reviewCount": 1,
+        "reviewAverage": 4,
+        "pointRate": 1,
+        "pointRateStartTime": "",
+        "pointRateEndTime": "",
+        "giftFlag": 0,
+        "shopName": "あみもねっと 毛糸ショップ",
+        "shopCode": "amimonet-shop",
+        "genreId": 401038,
+        "attributeIds": [
+          3,
+          1,
+          5,
+          8,
+          981,
+          1583,
+          4714
+        ]
+      }
+    },
+    {
+      "Item": {
+        "itemName": "廃番色 現品限り スキー毛糸　スキーコットンシルク　並太【毛糸】",
+        "catchcopy": "スキー毛糸　春夏毛糸",
+        "itemCode": "amimonet-shop:10001278",
+        "itemPrice": 250,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 250,
+        "itemPriceMax2": 250,
+        "itemPriceMax3": 250,
+        "itemPriceMin1": 250,
+        "itemPriceMin2": 250,
+        "itemPriceMin3": 250,
+        "itemCaption": "■商品のご案内 形状 25g　86m 品質構成 綿90％ シルク10％ 使用針目安 棒針 4〜6号　カギ針 5/0〜6/0号 標準ゲージ メリヤス編 20〜24目29〜33段 ※個人差によってゲージは異なります。ゲージと合わない場合は針の号数を変えて編んでください。 ※商品写真は出来る限り現物を再現するよう心掛けておりますが、ご利用のモニターの設定・個人の視覚等の違いにより差異が生じる場合が御座います。何卒、ご了承ください。※商品ラベルに記載のロット(LOT)は毛糸の生産番号です。カラーNoが同じでも、ロットが違うと色に若干の濃淡が生じますが欠陥では御座いませんのでご了承頂きます様宜しくお願い致します。 （その為、購入の際は予め作品に十分な量をお買い求めいただくことをオススメ致します。） ※毛糸には製造工程の都合上1〜2ヵ所に結び目が生じる場合が御座います。",
+        "itemUrl": "https://item.rakuten.co.jp/amimonet-shop/cosilk-2/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "shopUrl": "https://www.rakuten.co.jp/amimonet-shop/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/imgrc0079695760.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-3.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-18-0174-250.jpg?_ex=64x64"
+          }
+        ],
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/imgrc0079695760.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-3.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/amimonet-shop/cabinet/01328855/05029237/07546249/cosilk-18-0174-250.jpg?_ex=128x128"
+          }
+        ],
+        "affiliateUrl": "",
+        "shopAffiliateUrl": "",
+        "imageFlag": 1,
+        "availability": 1,
+        "taxFlag": 0,
+        "postageFlag": 1,
+        "creditCardFlag": 1,
+        "shopOfTheYearFlag": 0,
+        "shipOverseasFlag": 0,
+        "shipOverseasArea": "",
+        "asurakuFlag": 0,
+        "asurakuClosingTime": "",
+        "asurakuArea": "",
+        "affiliateRate": 3,
+        "startTime": "",
+        "endTime": "",
+        "reviewCount": 0,
+        "reviewAverage": 0,
+        "pointRate": 1,
+        "pointRateStartTime": "",
+        "pointRateEndTime": "",
+        "giftFlag": 0,
+        "shopName": "あみもねっと 毛糸ショップ",
+        "shopCode": "amimonet-shop",
+        "genreId": 401038,
+        "attributeIds": [
+          3,
+          1,
+          5,
+          8,
+          981,
+          1583,
+          4714
+        ]
+      }
+    },
+    {
+      "Item": {
+        "itemName": "＼週末最大半額中！／シルクコットン 毛糸 並太 40g 綿100％ コットン手芸 春夏毛糸 サマーヤーン 春毛糸 夏毛糸 つややかヤーン マフラー 帽子 ポンネット 高級感 柔らかい 軽い カーディガン 棒針 かぎ針",
+        "catchcopy": "毛糸 並太 40g 綿100％ コットン まとめ買い コットン春夏毛糸 夏系 春系 編み物 帽子 ポンネット サマーヤーン 手芸 つややか 高級感 柔らかい 軽い",
+        "itemCode": "sango0915:10000167",
+        "itemPrice": 690,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 690,
+        "itemPriceMax2": 690,
+        "itemPriceMax3": 690,
+        "itemPriceMin1": 690,
+        "itemPriceMin2": 690,
+        "itemPriceMin3": 690,
+        "itemCaption": "関連商品はこちら＼最大30%OFF中／毛糸 並太 毛糸 ポンポ...＼最大30%OFF中／【楽天1位受賞】毛糸 ...＼最大30%OFF中／【楽天1位受賞】毛糸 ...",
+        "itemUrl": "https://item.rakuten.co.jp/sango0915/siruku-cotton/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "shopUrl": "https://www.rakuten.co.jp/sango0915/?rafcid=wsc_i_is_65548092-3cc9-4112-bc43-d0602af56f21",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12642432/imgrc0188648844.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12160339/12720557/imgrc0188519516.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12160339/12720557/imgrc0188519517.jpg?_ex=64x64"
+          }
+        ],
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12642432/imgrc0188648844.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12160339/12720557/imgrc0188519516.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/sango0915/cabinet/12160339/12720557/imgrc0188519517.jpg?_ex=128x128"
+          }
+        ],
+        "affiliateUrl": "",
+        "shopAffiliateUrl": "",
+        "imageFlag": 1,
+        "availability": 1,
+        "taxFlag": 0,
+        "postageFlag": 1,
+        "creditCardFlag": 1,
+        "shopOfTheYearFlag": 0,
+        "shipOverseasFlag": 0,
+        "shipOverseasArea": "",
+        "asurakuFlag": 0,
+        "asurakuClosingTime": "",
+        "asurakuArea": "",
+        "affiliateRate": 3,
+        "startTime": "",
+        "endTime": "",
+        "reviewCount": 4,
+        "reviewAverage": 4,
+        "pointRate": 1,
+        "pointRateStartTime": "",
+        "pointRateEndTime": "",
+        "giftFlag": 0,
+        "shopName": "日用品研究所",
+        "shopCode": "sango0915",
+        "genreId": 401038,
+        "attributeIds": [
+          3,
+          1,
+          5,
+          8,
+          981,
+          1583,
+          4714
+        ]
+      }
+    }
+  ],
+  "GenreInformation": [],
+  "Attributes": []
+}
