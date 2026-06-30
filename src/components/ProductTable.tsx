@@ -4,7 +4,7 @@ type ItemHeaderProps = {
   name: ItemDetails["itemName"];
 };
 
-type ItemDetailsProps = {
+type ItemInfoProps = {
   price: ItemDetails["itemPrice"];
   details: ItemDetails["itemCaption"];
 };
@@ -25,7 +25,7 @@ function ItemHeader({ name }: ItemHeaderProps) {
   return <h2>{name}</h2>;
 }
 
-function ItemDetails({ price, details }: ItemDetailsProps) {
+function ItemInfo({ price, details }: ItemInfoProps) {
   return (
     <section>
       <strong>¥{price}/skein</strong>
@@ -53,7 +53,7 @@ export default function ItemCard({ item }: ItemCardProps) {
     <article>
       <ItemHeader name={item.itemName} />
       <ItemImages images={item.mediumImageUrls} />
-      <ItemDetails price={item.itemPrice} details={item.itemCaption} />
+      <ItemInfo price={item.itemPrice} details={item.itemCaption} />
     </article>
   );
 }
