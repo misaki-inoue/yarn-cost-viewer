@@ -41,8 +41,8 @@ function ItemImage({ imageUrl }: ItemImageProps) {
 function ItemImages({ images }: ItemImagesProps) {
   return (
     <>
-      {images.map(({ imageUrl }) => (
-        <ItemImage key={imageUrl} imageUrl={imageUrl} />
+      {images.map(({ imageUrl }, i) => (
+        <ItemImage key={`${imageUrl}-${i}`} imageUrl={imageUrl} />
       ))}
     </>
   );
