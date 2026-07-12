@@ -1,4 +1,4 @@
-import ItemCard from "../components/ProductTable";
+import ItemCard from "../components/ProductCard.tsx";
 import mock from "../../mock/api_res_simple.json";
 
 export default function Result() {
