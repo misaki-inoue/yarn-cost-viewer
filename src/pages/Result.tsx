@@ -7,7 +7,7 @@ export default function Result() {
   return (
     <section>
       {products.map((product) => (
-        <ProductCard key={product.itemCode} product={product} />
+        <ProductCard key={product.code} product={product} />
       ))}
     </section>
   );

@@ -1,12 +1,12 @@
 import type { ProductCardData } from "../types";
 
 type ProductHeaderProps = {
-  name: ProductCardData["itemName"];
+  name: ProductCardData["name"];
 };
 
 type ProductDetailsProps = {
-  price: ProductCardData["itemPrice"];
-  details: ProductCardData["itemCaption"];
+  price: ProductCardData["price"];
+  details: ProductCardData["caption"];
 };
 
 type ProductImageProps = {
@@ -14,7 +14,7 @@ type ProductImageProps = {
 };
 
 type ProductImagesProps = {
-  images: ProductCardData["mediumImageUrls"];
+  images: ProductCardData["imageUrl"];
 };
 
 type ProductCardProps = {
@@ -51,9 +51,9 @@ function ProductImages({ images }: ProductImagesProps) {
 export default function ProductCard({ product }: ProductCardProps) {
   return (
     <article>
-      <ProductHeader name={product.itemName} />
-      <ProductImages images={product.mediumImageUrls} />
-      <ProductDetails price={product.itemPrice} details={product.itemCaption} />
+      <ProductHeader name={product.name} />
+      <ProductImages images={product.imageUrl} />
+      <ProductDetails price={product.price} details={product.caption} />
     </article>
   );
 }

@@ -63,12 +63,12 @@ export interface RakutenApiResponse {
 }
 
 export interface ProductCardData {
-  itemName: string;
-  itemCode: string;
-  itemPrice: number;
-  itemCaption: string;
-  itemUrl: string;
-  mediumImageUrls: RakutenImage[];
+  name: string;
+  code: string;
+  price: number;
+  caption: string;
+  url: string;
+  imageUrl: RakutenImage[];
   shopName: string;
   shopUrl: string;
 }
