@@ -48,12 +48,12 @@ function ProductImages({ images }: ProductImagesProps) {
   );
 }
 
-export default function ProductCard({ product: item }: ProductCardProps) {
+export default function ProductCard({ product }: ProductCardProps) {
   return (
     <article>
-      <ProductHeader name={item.itemName} />
-      <ProductImages images={item.mediumImageUrls} />
-      <ProductDetails price={item.itemPrice} details={item.itemCaption} />
+      <ProductHeader name={product.itemName} />
+      <ProductImages images={product.mediumImageUrls} />
+      <ProductDetails price={product.itemPrice} details={product.itemCaption} />
     </article>
   );
 }
