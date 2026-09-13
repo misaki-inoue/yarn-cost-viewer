@@ -41,8 +41,8 @@ function ProductImage({ imageUrl }: ProductImageProps) {
 function ProductImages({ images }: ProductImagesProps) {
   return (
     <>
-      {images.map(({ imageUrl }) => (
-        <ProductImage key={imageUrl} imageUrl={imageUrl} />
+      {images.map(({ imageUrl }, i) => (
+        <ProductImage key={`${imageUrl}-${i}`} imageUrl={imageUrl} />
       ))}
     </>
   );
