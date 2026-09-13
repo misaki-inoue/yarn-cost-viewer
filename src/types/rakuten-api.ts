@@ -62,13 +62,4 @@ export interface RakutenApiResponse {
   Items: RakutenItemContainer[];
 }
 
-export interface ProductCardData {
-  name: string;
-  code: string;
-  price: number;
-  caption: string;
-  url: string;
-  imageUrl: RakutenImage[];
-  shopName: string;
-  shopUrl: string;
-}
+
