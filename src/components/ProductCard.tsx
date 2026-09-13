@@ -1,31 +1,31 @@
-import type { ItemDetails } from "../types";
+import type { ProductCardData } from "../types";
 
-type ItemHeaderProps = {
-  name: ItemDetails["itemName"];
+type ProductHeaderProps = {
+  name: ProductCardData["name"];
 };
 
-type ItemInfoProps = {
-  price: ItemDetails["itemPrice"];
-  details: ItemDetails["itemCaption"];
+type ProductDetailsProps = {
+  price: ProductCardData["price"];
+  details: ProductCardData["caption"];
 };
 
-type ItemImageProps = {
+type ProductImageProps = {
   imageUrl: string;
 };
 
-type ItemImagesProps = {
-  images: ItemDetails["mediumImageUrls"];
+type ProductImagesProps = {
+  images: ProductCardData["imageUrl"];
 };
 
-type ItemCardProps = {
-  item: ItemDetails;
+type ProductCardProps = {
+  product: ProductCardData;
 };
 
-function ItemHeader({ name }: ItemHeaderProps) {
+function ProductHeader({ name }: ProductHeaderProps) {
   return <h2>{name}</h2>;
 }
 
-function ItemInfo({ price, details }: ItemInfoProps) {
+function ProductDetails({ price, details }: ProductDetailsProps) {
   return (
     <section>
       <strong>¥{price}/skein</strong>
@@ -34,26 +34,26 @@ function ItemInfo({ price, details }: ItemInfoProps) {
   );
 }
 
-function ItemImage({ imageUrl }: ItemImageProps) {
+function ProductImage({ imageUrl }: ProductImageProps) {
   return <img src={imageUrl} alt="" width={128} />;
 }
 
-function ItemImages({ images }: ItemImagesProps) {
+function ProductImages({ images }: ProductImagesProps) {
   return (
     <>
       {images.map(({ imageUrl }, i) => (
-        <ItemImage key={`${imageUrl}-${i}`} imageUrl={imageUrl} />
+        <ProductImage key={`${imageUrl}-${i}`} imageUrl={imageUrl} />
       ))}
     </>
   );
 }
 
-export default function ItemCard({ item }: ItemCardProps) {
+export default function ProductCard({ product }: ProductCardProps) {
   return (
     <article>
-      <ItemHeader name={item.itemName} />
-      <ItemImages images={item.mediumImageUrls} />
-      <ItemInfo price={item.itemPrice} details={item.itemCaption} />
+      <ProductHeader name={product.name} />
+      <ProductImages images={product.imageUrl} />
+      <ProductDetails price={product.price} details={product.caption} />
     </article>
   );
 }
